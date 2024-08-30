@@ -1,0 +1,41 @@
+Insertion Sort=>
+
+
+..Its same as like rounds as we saw previously in bubble sort (1)every rounds comparision,2) and insert an elements and i++,
+ 3)we recieved some sorted arr in every round with the help og right shift  not swaped,4)If we have n rounds so we will run just(n-1),
+ 5)Remembeered that we already assume our first elelment is already sorted.)
+Question:[4,12,11,20]
+
+=>    4-11-12-20
+
+Question:[6,5,4,3,2,1,]
+
+=>     1-2-3-4-5-6
+
+..Why IS is Adaptable?
+An adaptable sorting algorithm is one that can handle changes in the data during the sorting process.
+Insertion sort is considered adaptable because it can efficiently insert new elements into the already sorted
+portion of the array without needing to re-sort the entire array.
+
+This makes it a suitable choice for scenarios where data is being added incrementally or where the 
+data may change dynamically.
+
+..why it is Stable?
+Yes, insertion sort is also stable.
+A stable sorting algorithm is one that preserves the relative order of elements with equal keys.
+This means that if two elements have the same value, their relative order in the sorted array will
+be the same as their relative order in the original array.   
+Insertion sort maintains this property because it compares elements based on their values and inserts
+them into the sorted portion of the array in a way that preserves their relative order.
+
+Space Complexity=>
+O(1)
+
+Time Complexity=>
+O(n**2)
+
+Best Case(already sorted)
+O(n)
+
+Worst case(reverse sort)=>
+O(n**2)

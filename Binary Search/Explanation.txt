@@ -1,0 +1,24 @@
+=>Binary search element should be in montonic func (increasing/Decreasing order)
+
+Steps To Find a key in Binary search:-
+- take a avg of length of arr
+-then cmp  key with mid point
+-if yes return its index
+-otherwise move forward/backward acc to val
+
+
+Time Complexity:-
+  (size)-n/2
+      -n/4
+          -n/8
+              -n/2**k
+
+n/2**k=1
+n=2**k
+k=logn
+
+=>O(logn)
+
+Q)Why Binaray Search?and How do we know about it?
+=>Basically, when we neglect the left or right part by finding a possible/not possible solutions 
+on a sorted answer search space.We can use Binaray Search.  

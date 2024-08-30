@@ -1,0 +1,28 @@
+Seletion sort=>
+
+what is?
+We try diff round/passes and pick smallest element and placed on its right place
+
+Example:
+
+R1==> 64  25  12  22  11   i=0
+R2==> 11  25  12  22  64   i=1
+R3==> 11  12  25  22  64   i=2
+R4==> 11  12  22  25  64   i=3
+
+it means If we have a 5 value(n) so we need total Rounds that is =(n-1)
+
+Complexity=>
+
+Space Complexity:
+O(1)  Because we don't take any extra space like not created any extra variables
+Time Complexity:
+O(n**2)  In Both Cases(Best/Worst)
+
+
+Use Case:
+When arr size is small
+
+
+Stable Sort: Preserves the order of equal elements.
+Unstable Sort: Does not preserve the order of equal elements

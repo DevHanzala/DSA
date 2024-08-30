@@ -1,0 +1,79 @@
+Bubble Sort=>
+
+Problem==>  10  1   7   6   14  9  
+
+Round_1
+R1:         1   10  7   6   14  9   ---
+R2:         1   7   10  6   14  9   ---
+R3:         1   7   6   10  14  9  (Swap)
+R4:         1   7   6   10  14  9  (Ignore)    (In every round last element placed on its correct posittion so in next round we will ignore it)
+R5:         1   7   6   10  9   14  (Swap)
+
+Round_2
+R:          1   7   6   10  9    
+R1:         1   7   6   10  9     (swap)
+R2:         1   6   7   10  9     ----
+R3:         1   6   7   10  9     (Ignore)
+R4:         1   6   7   9   10    (Swap)
+
+Round_3
+R:         1    6   7   9
+R1:        1    6   7   9 (Ignore)      
+R2:        1    6   7   9  ....
+R3:        1    6   7   9  .....
+
+Round_4 
+R:        1     6   7
+R1:       1     6   7  (Ignore)
+R2:       1     6   7  (Ignore)
+
+Round_5
+R:        1     6
+R1:       1     6 (Ignore)   
+
+
+Final Array==>[1,6,7,9,10,14]
+
+
+Time Complexity=>
+n(n-1)/2 
+O(n**2)
+
+Space Complexity=>
+O(1)
+
+Best Case(already Sorted)
+O(n)  with the help of optimizarion
+
+Worst Case(reverse sorted)
+O(n**2)
+
+
+
+Bubble sort is a stable sorting algorithm.
+
+This means that if two elements have the same value, their relative order in the sorted array will be the same as
+their relative order in the original array. 1  This is because bubble sort compares adjacent elements and swaps them
+only if they are in the wrong order. If two elements have the same value, they will not be swapped, preserving their 
+original relative order.
+
+
+What is In-place Sorting?
+
+Definition: In-place sorting algorithms sort an array without requiring any additional memory space beyond the original array.
+Key characteristics:
+No extra space
+Efficiency
+Direct manipulation
+Examples:
+Bubble sort
+Insertion sort
+Selection sort
+Quick sort (not strictly in-place, but can be implemented to minimize additional space)
+Advantages:
+Memory efficiency
+Simplicity
+Disadvantages:
+Performance (can vary depending on input data and algorithm)
+Limitations (may not be suitable for certain applications)
+Overall: In-place sorting is a valuable technique for sorting arrays when memory efficiency is a concern.
