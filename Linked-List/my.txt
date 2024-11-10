@@ -1,0 +1,15 @@
+Linked List=>
+
+It is a linear data structure, made with collection of nodes.
+
+Node= |Data|next node address|
+|2|add|-->|5|add|--->|67|add|-->null
+
+why we need?
+If I created an arr[10] and I wants to change it on run time so, how can I do?.
+To counter this problem we have a linked list it's a dynamic data structure which can be grow/shrink on run time with out memory loss.
+Insertion and deletion is easy no shift needed
+
+Doubly Linked List:
+  null<--|prev|data|next|--><--|prev|data|next|--><--|prev|data|next|-->null 
+  
