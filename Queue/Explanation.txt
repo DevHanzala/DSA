@@ -1,0 +1,19 @@
+It works on FIFO (First In First Out)
+push=>From Rear
+pop=>From Front
+
+Queue implemented through Array and Linked List
+
+TC=>O(1)
+
+
+Circular Queue=>
+In this case when rear pointing the last so it moves towards the front means index 0 same goes for front
+front and rear pinting to -1 
+
+
+Doubly Ended Queue==>
+push_front(front)
+push_back(rear)
+pop_front(front)
+pop_back(rear)
