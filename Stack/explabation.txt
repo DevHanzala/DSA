@@ -1,0 +1,26 @@
+Stack=>
+using array.....
+In the begining top=-1
+then int top ->index
+
+int top
+int *arr
+int size
+
+push....
+check space avaliable?
+if yes so => top++
+             arr[top]==22 
+if No then simple print "Stack is overflow"
+
+
+pop.....
+check element is present
+if yes(top>=0) then top--
+if No then simply print "stack is "underflow"         
+
+
+
+Question....
+In the beginning top1=-1 and top2=size
+stac1---left to right  and stack2--right to left
